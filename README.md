@@ -1,4 +1,4 @@
-![image](https://github.com/ayu211/SunitaSharma/assets/79569841/341366ba-5b3e-480d-9c99-37dc6c627226)# Sunita's Health Management App
+# Sunita's Health Management App
 
 This application is developed to assist Sunita Sharma, a 71-year-old lady, in managing her health and medications. The app provides features to track daily medicines, offers information on managing diseases, and displays the locations of nearby doctors.
 
