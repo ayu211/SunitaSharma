@@ -21,14 +21,9 @@ Follow these steps to get the project up and running on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/health-management-app.git
-
+   git clone https://github.com/ayu211/SunitaSharma.git
 
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
