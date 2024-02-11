@@ -1,0 +1,61 @@
+.card {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .container {
+    box-shadow: 10px 10px 5px lightblue;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(44, 214, 249, 1) 100%
+    );
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: larger;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+  }
+  
+  .rating {
+    font-size: medium;
+  }
+  
+  .rating i {
+    color: rgb(8, 0, 255);
+  }
+  
+  .address {
+    font-size: medium;
+  }
+  
+  .num {
+    background-color: rgb(84, 255, 84);
+    border-radius: 5px;
+    font-size: medium;
+    padding: 5px;
+  }
+  
+  .types {
+    display: inline-block;
+    font-size: 10px;
+    background-color: rgb(246, 238, 238);
+    padding: 1px;
+    border-radius: 3px;
+    border: 0.5px solid gray;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .card {
+      flex-direction: column;
+    }
+  }
+      

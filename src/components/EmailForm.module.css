@@ -1,0 +1,156 @@
+.formcontainer {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(74, 144, 226, 0.2);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(44, 214, 249, 1) 100%);
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.right {
+  width: 100%;
+}
+
+
+  
+  .lab {
+    display: block;
+    
+    
+    .right {
+      justify-content: center;
+      width: 50%;
+      align-items: center;
+    }
+    
+    .lab {
+      display: block;
+      margin-bottom: 10px;
+      color: black;
+      font-weight: 500;
+    }
+    
+    .inp,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      border: 1px solid #4a90e2;
+      border-radius: 5px;
+      margin: 0;
+    }
+    
+    textarea {
+      resize: vertical;
+    }
+    
+    .subBtn {
+      background-color: #4a90e2;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .subBtn:hover {
+      background-color: #0066cc;
+    }
+    
+    .box {
+      display: flex;
+    }
+    
+    .left {
+      width: 70%;
+      padding: 20px;
+    }
+    
+    @media screen and (min-width: 768px) {
+      .box {
+        flex-direction: row;
+      }
+    
+      .left {
+        width: 100%;
+      }
+    
+      .right {
+        width: 100%;
+      }
+    }
+    
+    margin-bottom: 10px;
+    color: black; 
+    font-weight: 500;
+  }
+  
+  .inp,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    margin: 0; 
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .subBtn {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .subBtn:hover {
+    background-color: #0066cc; 
+  }
+  .box{
+    display: flex;
+  }
+  .left{
+    width: 70%; 
+    padding: 20px;
+
+  }
+
+@media screen and (max-width: 600px) {
+  .box {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+    padding: 0;
+  }
+
+  .right {
+    width: 100%;
+    padding: 0; 
+    margin-top: 20px; 
+  }
+
+  .left iframe {
+    width: 100%;
+    height: 300px; 
+  }
+
+  .formcontainer {
+    max-width: none; 
+    margin: 0 auto;
+    width: 80%; 
+  }
+}

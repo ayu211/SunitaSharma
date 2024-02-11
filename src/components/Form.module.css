@@ -1,0 +1,50 @@
+.form {
+    padding: 20px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  
+  label input {
+    font-size: small;
+    font-family: sans-serif;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  option {
+    font-size: small;
+    font-family: sans-serif;
+  }
+  
+  label {
+    padding: 20px;
+    display: block;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .add {
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    label input,
+    select {
+      font-size: medium;
+      padding: 8px; 
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  

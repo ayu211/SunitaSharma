@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .first,
+  .second,
+  .third {
+    width: 33.33%;
+  }
+  
+  .img1,
+  .img2,
+  .img3 {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .container {
+      flex-direction: column; 
+    }
+  
+    .first,
+    .second,
+    .third {
+      width: 100%;
+    }
+  }
+  
